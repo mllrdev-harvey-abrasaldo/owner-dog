@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "owners",
+  "info": {
+    "singularName": "owner",
+    "pluralName": "owners",
+    "displayName": "Owner"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    }
+  },
+
+  "attributes": {
+    "name": {
+      "type": "text"
+    }
+  }
+}

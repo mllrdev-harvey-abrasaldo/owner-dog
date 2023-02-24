@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "owners",
+  "info": {
+    "singularName": "owner",
+    "pluralName": "owners",
+    "displayName": "Owner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "dogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dog.dog"
+    }
+  }
+}
