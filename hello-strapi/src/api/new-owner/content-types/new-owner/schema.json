@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_owners",
+  "info": {
+    "singularName": "new-owner",
+    "pluralName": "new-owners",
+    "displayName": "new-owner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "dogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dog.dog"
+    }
+  }
+}
